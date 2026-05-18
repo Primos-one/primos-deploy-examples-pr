@@ -1,0 +1,14 @@
+apiVersion: primos-deploy/v1
+kind: Project
+metadata:
+  name: primos-deploy-examples
+configurations:
+  - name: 1plus2
+    repo: https://github.com/Primos-one/primos-deploy-config-1plus2-pr.git
+    mode: readonly
+  - name: 3plus3-base
+    repo: https://github.com/Primos-one/primos-deploy-config-3plus3-base-pr.git
+    mode: readonly
+  - name: 3plus3-infra
+    repo: https://github.com/Primos-one/primos-deploy-config-3plus3-infra-pr.git
+    mode: readonly
